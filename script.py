@@ -62,7 +62,7 @@ def second_pass( commands, num_frames ):
                     else:
                         bub = float(temp[4])-float(temp[3])
                         tea = float(temp[2])-float(temp[1])
-                        knosb[x][temp[0]] = knobs[x-1][temp[0]] + (bub)/(tea);
+                        knobs[x][temp[0]] = knobs[x-1][temp[0]] + (bub)/(tea);
     return knobs;
 
 def run(filename):
